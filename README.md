@@ -11,15 +11,15 @@ Information about each source file:
 
 **1)  trainTest_gh.py**
 
-This file is the main program for executing the training stage (trainMode) or testing stage (testModel) of a kidneys detection model or a kidneys segmentation model using 4D image data. Please comment and un-comment the model you wish to train/test and select network type (netNdx) and change additional parameters where necessary.
+This file is the main program for executing the training stage (trainMode) or testing stage (testModel) of a kidneys detection model or a kidneys segmentation model. Please comment and un-comment the model you wish to train/test and select network type (netNdx) and change additional parameters where necessary.
 
 **2) selectTrainAndTestSubjects_gh.py**
 
-This file provides a template for adding the name of files that will contain 4D image data. The contents in this file are merely examples that you can substitute with your own experimental data information. 
+This file provides a template for adding the name of files that will contain 4D image data. The contents in this file are merely examples that you can substitute with the names of your own experimental data. 
 
 **3) saveDataSingleSubjects_gh.py**
 
-This file describes the implementation for generating downsampled and interpolated image files for training/testing the detection model and segmentation model.
+This file details the implementation for generating downsampled and interpolated image and kidney mask (ground-truth) arrays for training/testing the detection model and segmentation model.
 
 **4) funcs_gh.py**
 
@@ -31,7 +31,7 @@ This file provides an example template based on the original file used to contai
 
 **5) detectSeg3DkerasDR_gh.py**
 
-This file details the implementation for training (trainMode) and testing (testMode) the detection deep learning model.
+This file details the implementation for training (trainMode) and testing (testMode) the detection (coarse segmentation) deep learning model.
 
 **6) croppedSeg3DkerasDR_gh.py**
 
@@ -39,8 +39,8 @@ This file details the implementation for training (trainMode) and testing (testM
 
 **7) networks_gh.py**
 
-This file details the architecture of several experimented deep learning models for both detection and segmentation.
+This file details the architectures of experimented deep learning models for both detection and segmentation.
 
 **8) densenet_gh.py**
 
-This file details a range of architectures implemented from the original range of DenseNets architectures using Keras.
+This file details a range of architectures implemented from the original group of DenseNets architectures using Keras.
