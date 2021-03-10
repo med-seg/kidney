@@ -11,7 +11,7 @@ Information about each source file:
 
 **1)  trainTest_gh.py**
 
-This file is the main program for executing the training stage (trainMode) or testing stage (testModel) of a kidneys detection model or a kidneys segmentation model. Please comment and un-comment the model you wish to train/test and select network type (netNdx) and change additional parameters where necessary.
+This file is the main program for executing the training stage (trainMode) or testing stage (testMode) of a kidneys detection model or a kidneys segmentation model. Please comment and un-comment the model you wish to train/test and select network type (netNdx) and change additional parameters where necessary.
 
 **2) selectTrainAndTestSubjects_gh.py**
 
