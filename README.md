@@ -27,7 +27,7 @@ This file delivers a number of functions that (i) process 4D .nii image data and
 
 **4a) subjectDicomInfo_gh.xls**
 
-This file provides an example template based on the original file used to contain information that relates to the time taken for sequence 1 and sequence 2 during image acquisition.
+This file provides an example template based on the original file used to contain information that relates to the time taken for sequence 1 and sequence 2 during image acquisition. All information and values in this spreadsheet are theoretical.
 
 **5) detectSeg3DkerasDR_gh.py**
 
