@@ -44,3 +44,12 @@ This file details the architectures of experimented deep learning models for bot
 **8) densenet_gh.py**
 
 This file details a range of architectures implemented from the original group of DenseNets architectures using Keras.
+
+**9) subpixel_gh**
+
+This file details the implementation of a sub-pixel convolutional upscaling layer based on the paper "Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network" (https://arxiv.org/abs/1609.05158).
+
+**10) tensorflow_backend_gh**
+
+This file details the implementation of a phase shift algorithm to convert channels/depth for spatial resolution.
+    
