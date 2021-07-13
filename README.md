@@ -1,9 +1,4 @@
-The source code in this GitHub respiratory presents the implementation for a partial or full methodology presented in ‘xxx’, ‘xxx’, ‘xxx’ written using Python (Keras).
-
-References:
-[xxx]
-[xxx]
-[xxx]
+The source code in this GitHub respiratory presents the implementation for a partial or full methodology presented in ‘3D Deep Learning for Anatomical Structure Segmentation in Multiple Imaging Modalities (2021)’ by Barbara Villarini, Hykoush Asaturyan, Sila Kurugol, Onur Afacan, Jimmy D. Bell and E. Louise Thomas. 
 
 The program presented in this GitHub respiratory was built using Python 3.0 (Keras and TensorFlow).
 
